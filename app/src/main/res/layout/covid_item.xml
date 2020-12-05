@@ -39,20 +39,42 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="환자번호"
-                    android:textSize="22sp"
-                    android:maxLines="1"/>
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:text="연번"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:textColor="#FF9800"
+                        android:textSize="16sp"
+                        android:text="확진일"/>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_weight="1"
+                        android:textColor="#009688"
+                        android:textSize="16sp"
+                        android:text="지역" />
+                </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/textView4"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:paddingRight="10dp"
-                    android:gravity="right"
-                    android:text="지역"
-                    android:textColor="#FF0000FF"
-                    android:textSize="16sp" />
+                    android:layout_height="match_parent"
+                    android:textColor="#F44336"
+                    android:textSize="16sp"
+                    android:text="접촉력"/>
+
+
             </LinearLayout>
 
         </LinearLayout>
